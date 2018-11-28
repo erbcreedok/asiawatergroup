@@ -8835,14 +8835,32 @@ html {
 
 @font-face {
   font-family: 'Montserrat';
+  src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
   src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Montserrat';
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
   src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
   font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GoodVibesPro';
+  src: url("../fonts/GoodVibesPro/GoodVibesPro-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal; }
 
 /* Base Styles -------------------- */
@@ -8878,10 +8896,13 @@ h4, .h4 {
   color: #ffffff; }
 
 .color-orange {
-  color: #f26f16 !important; }
+  color: #fd7e14 !important; }
 
 .color-gray {
   color: #4d4e4f; }
+
+.color-green {
+  color: #18ad50 !important; }
 
 .box {
   background: white;
@@ -8896,6 +8917,9 @@ h4, .h4 {
 .no-wrap {
   white-space: nowrap; }
 
+.font-weight-black {
+  font-weight: 900; }
+
 .btn {
   min-height: 40px;
   min-width: 165px;
@@ -8907,13 +8931,13 @@ h4, .h4 {
   padding-right: 20px;
   border-radius: 4px; }
   .btn.btn-small {
-    min-height: 30px;
+    min-height: 40px;
     padding-top: 0;
     padding-bottom: 0; }
   .btn.btn-big {
-    min-height: 46px; }
+    min-height: 52px; }
   .btn.btn-primary {
-    background: #f26f16;
+    background: #18ad50;
     border-color: transparent;
     color: #ffffff; }
     .btn.btn-primary:not(:disabled):not(.disabled):focus, .btn.btn-primary:not(:disabled):not(.disabled).focus, .btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:not(:disabled):not(.disabled).active, .btn.btn-primary:not(:disabled):not(.disabled):focus:active, .btn.btn-primary:not(:disabled):not(.disabled):hover, .btn.btn-primary:not(:disabled):not(.disabled).hover {
@@ -8966,7 +8990,7 @@ h4, .h4 {
   transition: background 150ms ease-in, padding 150ms 150ms;
   background: #1d1e1f; }
   .navbar h1 {
-    color: #f26f16;
+    color: #fd7e14;
     font-size: 3.6rem; }
   .navbar a {
     color: #ffffff;
@@ -9056,7 +9080,7 @@ header {
         width: 25px;
         display: inline-block;
         margin-right: 15px;
-        color: #f26f16;
+        color: #fd7e14;
         font-size: 2rem;
         text-align: center; }
       .first-section .features-list li p {

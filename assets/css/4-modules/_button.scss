@@ -9,15 +9,15 @@
   padding-right: 20px;
   border-radius: 4px;
   &.btn-small {
-    min-height: 30px;
+    min-height: 40px;
     padding-top: 0;
     padding-bottom: 0;
   }
   &.btn-big {
-    min-height: 46px;
+    min-height: 52px;
   }
   &.btn-primary {
-    background: $orange;
+    background: $green;
     border-color: transparent;
     color: $white;
     &:not(:disabled):not(.disabled):focus,

@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+//Montserrat - Black (900)
+@font-face {
+  font-family: 'Montserrat';
+  src: url($path-font-main + '/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
 //Montserrat - Bold (700)
 @font-face {
   font-family: 'Montserrat';
@@ -14,10 +22,26 @@
   font-style: normal;
 }
 
+//Montserrat - Bold (600)
+@font-face {
+  font-family: 'Montserrat';
+  src: url($path-font-main + '/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 //Montserrat - Light (300)
 @font-face {
   font-family: 'Montserrat';
   src: url($path-font-main + '/Montserrat-Light.ttf') format('truetype');
   font-weight: 300;
+  font-style: normal;
+}
+
+//GoodVibesPro - Regular (400)
+@font-face {
+  font-family: 'GoodVibesPro';
+  src: url($path-fonts + '/GoodVibesPro/GoodVibesPro-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
