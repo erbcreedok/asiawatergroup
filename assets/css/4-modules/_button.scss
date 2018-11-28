@@ -1,0 +1,35 @@
+.btn {
+  min-height: 40px;
+  min-width: 165px;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: $black-default;
+  background: $white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  &.btn-small {
+    min-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  &.btn-big {
+    min-height: 46px;
+  }
+  &.btn-primary {
+    background: $orange;
+    border-color: transparent;
+    color: $white;
+    &:not(:disabled):not(.disabled):focus,
+    &:not(:disabled):not(.disabled).focus,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):focus:active,
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled).hover
+    {
+      box-shadow: none;
+      border-color: transparent;
+    }
+  }
+}

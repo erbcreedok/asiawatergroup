@@ -1,0 +1,14 @@
+.container {
+  padding: 0 20px;
+  overflow: hidden;
+}
+@media (min-width: 1440px){
+  .container {
+    max-width: 1380px;
+  }
+}
+@media (min-width: 1960px){
+  .container {
+    max-width: 1571px;
+  }
+}
