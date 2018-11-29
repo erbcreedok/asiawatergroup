@@ -1,0 +1,55 @@
+.section-products .container {
+  padding-top: 80px;
+  padding-bottom: 100px; }
+.section-products .box {
+  padding: 38px 35px;
+  height: 533px;
+  max-width: 367px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  overflow: hidden; }
+  .section-products .box.bg-green {
+    background: #e8f2d9; }
+  .section-products .box.bg-pink {
+    background: #f6e9e3; }
+  .section-products .box.bg-blue {
+    background: #c6e6f5; }
+  .section-products .box.bg-yellow {
+    background: #f8f0d9; }
+  .section-products .box.bg-orange {
+    background: #ecd5c7; }
+  .section-products .box > * {
+    position: relative; }
+  .section-products .box:before {
+    content: '';
+    position: absolute;
+    border: 5px solid white;
+    top: 49px;
+    bottom: 49px;
+    left: 35px;
+    right: 35px; }
+  .section-products .box .box-heading {
+    font-weight: bold;
+    font-size: 2.4rem;
+    background: inherit;
+    text-align: center;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .section-products .box .box-description {
+    font-size: 1.8rem; }
+  .section-products .box .box-image {
+    position: absolute;
+    pointer-events: none;
+    bottom: 0;
+    right: 0;
+    text-align: right; }
+    .section-products .box .box-image img {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+      object-position: 0 0; }
+
+/*# sourceMappingURL=section-products.css.map */

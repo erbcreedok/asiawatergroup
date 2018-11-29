@@ -1,0 +1,84 @@
+.navbar {
+  font-size: 1.5rem;
+  padding: 25px 0;
+  transition: background 150ms ease-in, padding 150ms 150ms;
+  background: $white;
+  color: $black-default;
+  .form-wrapper {
+    max-width: 240px;
+  }
+  .navbar-brand {
+    color: $black;
+    font-size: 2.9rem;
+  }
+  .navbar-nav {
+    width: 200px;
+  }
+  .nav-link {
+    white-space: nowrap;
+    color: inherit;
+    font-weight: 600;
+  }
+}
+.navbar-toggler-icon {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  $animation-time: 150ms;
+  @mixin normal() {
+    transform-origin: center;
+    transition: 150ms;
+    .navbar-toggler-icon-line, &:after, &:before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      border-radius: 1px;
+      background: $white;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      transition: $animation-time;
+    }
+    &:before{
+      margin-top: 2px;
+      transition: $animation-time;
+    }
+    &:after{
+      margin-bottom: 2px;
+      transition: $animation-time;
+    }
+  }
+  @mixin expanded() {
+    transform: rotate(45deg);
+    &:before {
+      transform: translateY(5px) rotate(180deg);
+    }
+    .navbar-toggler-icon-line {
+      transform: rotate(90deg) translateX(-2px);
+    }
+    &:after {
+      opacity: 0;
+    }
+
+  }
+
+  @include normal();
+  .navbar-toggler[aria-expanded=true] & {
+    @include expanded();
+  }
+}
+header {
+  height: 100px;
+}
+@include media-breakpoint-down(lg){
+  header {
+    height: 86px;
+  }
+  .navbar .navbar-brand{
+    font-size: 2rem;
+  }
+}

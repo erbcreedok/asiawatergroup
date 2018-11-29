@@ -1,8 +1,7 @@
 .btn {
   min-height: 40px;
-  min-width: 165px;
-  font-size: 1.6rem;
-  font-weight: normal;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: $black-default;
   background: $white;
   padding-left: 20px;
@@ -30,6 +29,29 @@
     {
       box-shadow: none;
       border-color: transparent;
+    }
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled).hover {
+      background: darken($green, 5)
+    }
+    &:not(:disabled):not(.disabled):focus,
+    &:not(:disabled):not(.disabled).focus {
+      box-shadow: 0 0 2px 3px rgb(0, 123, 255)
+    }
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+      box-shadow: none;
+      background: darken($green, 7);
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  .btn {
+    &.btn-small {
+      min-height: 35px;
+    }
+    &.btn-big {
+      min-height: 40px;
     }
   }
 }

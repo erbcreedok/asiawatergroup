@@ -19,11 +19,31 @@
   <body>
     <input type="hidden" value="index" id="sitepage">
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar d-none d-md-block navbar-expand-md fixed-top">
         <div class="container">
-          <div class="navbar-nav">
-
-          </div>
+          <ul class="navbar-nav ml-auto mr-xl-5 mr-3 pr-3 justify-content-around">
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#main">Главная</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about">О Нас</a>
+            </li>
+          </ul>
+          <a class="navbar-brand" href=".">
+            ASIA<span class="color-green font-weight-black mx-1">WATTTTER</span>GROUP
+          </a>
+          <ul class="navbar-nav mr-auto ml-xl-5 ml-3 pl-3 justify-content-around">
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#products">Продукты</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="navbar d-block d-md-none navbar-expand-md fixed-top">
+        <div class="container">
           <a class="navbar-brand" href=".">
             ASIA<span class="color-green font-weight-black mx-1">WATTTTER</span>GROUP
           </a>
@@ -34,84 +54,215 @@
             </span>
           </button>
           <div class="color-green collapse navbar-collapse form-wrapper" id="mainNavbar">
-
           </div>
         </div>
       </nav>
     </header>
-    <section class="first-section">
-        <div class="container">
-          <h2 class="text-center">
-            <span class="font-weight-light">
-              Нужны Запчасти?
-            </span>
-            <span>Заполните <span class="color-orange">форму</span> запроса или позвоните.</span>
-          </h2>
-          <div class="row">
-            <div class="col-md-6">
-              <h3 class="font-weight-bold">У НАС ЕСТЬ</h3>
-              <ul class="features-list" style="list-style: none; padding: 0; margin: 0">
-                <li>
-                  <i class="fas fa-cogs"></i>
-                  <p>Более 70 000 000 запчастей</p>
-                </li>
-                <li>
-                  <i class="fas fa-shipping-fast"></i>
-                  <p>Быстрая доставка по г. Алматы</p>
-                </li>
-                <li>
-                  <i class="fas fa-truck"></i>
-                  <p>Отправка во все регионы РК</p>
-                </li>
-                <li>
-                  <i class="fas fa-thumbs-up"></i>
-                  <p>Качественные запачти по вкуснам ценам</p>
-                </li>
-                <li>
-                  <i class="fas fa-shield-alt"></i>
-                  <p>Гарантия на товар от производителей</p>
-                </li>
-                <li>
-                  <i class="fas fa-users"></i>
-                  <p>Индивидуальный подход к каждому клиенту</p>
-                </li>
-                <li>
-                  <i class="fas fa-hand-holding-usd"></i>
-                  <p>Оплата при получение в г. Алматы</p>
-                </li>
-              </ul>
+
+    <link rel="stylesheet" href="assets/css/sections/section-main.css">
+    <section class="section-main d-flex align-items-center">
+      <div class="container">
+        <h1 style="max-width: 899px" class="mx-auto">
+          <span class="font-weight-light">Предоставляет услуги по оптовой поставке</span> <span class="font-weight-bold">яблок и репчатого лука</span>
+        </h1>
+        <button class="btn btn-primary btn-big mx-auto d-block" style="width: 145px">
+          Купить
+        </button>
+      </div>
+    </section>
+
+
+    <link rel="stylesheet" href="assets/css/sections/section-about.css">
+    <section class="section-about">
+    </section>
+
+    <link rel="stylesheet" href="assets/css/sections/section-features.css">
+    <section class="section-features">
+      <div class="container">
+        <h4 class="subheading">
+          От производителя До клиента
+        </h4>
+        <h2 class="heading">
+          Наши преимущества
+        </h2>
+        <div class="row" style="padding-top: 65px;">
+          <div class="col-lg-3 col-sm-6">
+            <div class="circle">
+              <img src="./assets/img/icon1.png" alt="">
             </div>
-            <div class="col-md-6">
-              <div class="box">
-                <h4 class="font-weight-bold color-orange text-center">ФОРМА ЗАПРОСА</h4>
-                <form action="#" id="callbackForm">
-                  <div class="form-group mb-4">
-                    <label for="phone" class="required">Телефон</label>
-                    <input type="tel" class="form-control" name="phone" id="phone" aria-describedby="phone" placeholder="+7 (777) 555 22 33" required>
-                  </div>
-                  <div class="form-group mb-4">
-                    <label for="mark">Марка, модель, год выпуска</label>
-                    <input type="text" class="form-control" name="mark" id="mark" placeholder="Toyota Camry 2009">
-                  </div>
-                  <div class="form-group mb-4">
-                    <label for="vin">VIN-код</label>
-                    <input type="text" class="form-control" name="vin" id="vin" placeholder="JIN1WNYD21U0000001(как на техпаспорте)">
-                  </div>
-                  <div class="form-group mb-4">
-                    <label for="describe" class="required">Какие запчасти вам нужны</label>
-                    <textarea type="text" class="form-control" name="describe" id="describe" placeholder="Колодки, амортизатор, радиатор" required rows="4"></textarea>
-                  </div>
-                  <div class="form-group text-center">
-                    <button class="btn btn-primary btn-big ajax-status" style="min-width: 80%" type="submit">
-                      Отправить запрос
-                    </button>
-                  </div>
-                </form>
+            <p class="description">
+              Большой темп. склад
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="circle">
+              <img src="./assets/img/icon2.png" alt="">
+            </div>
+            <p class="description">
+              Служба контроля продукции
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="circle">
+              <img src="./assets/img/icon3.png" alt="">
+            </div>
+            <p class="description">
+              3 года<br> на рынке
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="circle">
+              <img src="./assets/img/icon4.png" alt="">
+            </div>
+            <p class="description">
+              Квалифицированный персонал
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <link rel="stylesheet" href="./assets/css/sections/section-products.css">
+    <section class="section-products">
+      <div class="container">
+        <h4 class="subheading">
+          Предоставляем вам Урожай 2018 года
+        </h4>
+        <h2 class="heading mb-5">
+          Наши яблоки
+        </h2>
+        <div class="row py-5 mb-5">
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="box bg-green">
+              <div class="box-image">
+                <img src="./assets/img/1.png" alt="" style="height: 288px">
               </div>
+              <h4 class="box-heading">
+                АМЕРИКАНКА
+              </h4>
+              <div style="height: 31px"></div>
+              <p class="box-description mb-0">
+                Кисло сладкий вкус
+              </p>
+              <div style="height: 28px"></div>
+              <button class="btn btn-primary btn-small">
+                Заказать
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="box bg-pink">
+              <div class="box-image">
+                <img src="./assets/img/2.png" alt="">
+              </div>
+              <h4 class="box-heading">
+                ГОЛДЕН ДЕЛИШЕС
+              </h4>
+              <div style="height: 31px"></div>
+              <p class="box-description mb-0">
+                Очень сладкий вкус
+              </p>
+              <div style="height: 28px"></div>
+              <button class="btn btn-primary btn-small">
+                Заказать
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="box bg-blue">
+              <div class="box-image">
+                <img src="./assets/img/3.png" alt="">
+              </div>
+              <h4 class="box-heading">
+                СТАРКРИМСОН
+              </h4>
+              <div style="height: 31px"></div>
+              <p class="box-description mb-0">
+                Кисло сладкий вкус
+              </p>
+              <div style="height: 28px"></div>
+              <button class="btn btn-primary btn-small">
+                Заказать
+              </button>
             </div>
           </div>
         </div>
+        <h2 class="heading mb-5">
+          Сорта репчатого лука
+        </h2>
+        <div class="row py-5 mb-5">
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="box bg-yellow">
+              <div class="box-image">
+                <img src="./assets/img/4.png" alt="">
+              </div>
+              <h4 class="box-heading">
+                БУРСА
+              </h4>
+              <div style="height: 31px"></div>
+              <p class="box-description mb-0">
+                Кисло сладкий вкус
+              </p>
+              <div style="height: 28px"></div>
+              <button class="btn btn-primary btn-small">
+                Заказать
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="box bg-blue">
+              <div class="box-image">
+                <img src="./assets/img/5.png" alt="">
+              </div>
+              <h4 class="box-heading">
+                ГОЛЛАНДСКИЙ
+              </h4>
+              <div style="height: 31px"></div>
+              <p class="box-description mb-0">
+                Очень сладкий вкус
+              </p>
+              <div style="height: 28px"></div>
+              <button class="btn btn-primary btn-small">
+                Заказать
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="box bg-orange">
+              <div class="box-image">
+                <img src="./assets/img/6.png" alt="">
+              </div>
+              <h4 class="box-heading">
+                БРАТКО
+              </h4>
+              <div style="height: 31px"></div>
+              <p class="box-description mb-0">
+                Кисло сладкий вкус
+              </p>
+              <div style="height: 28px"></div>
+              <button class="btn btn-primary btn-small">
+                Заказать
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <link rel="stylesheet" href="./assets/css/sections/section-banner.css">
+    <section class="section-banner">
+      <div class="container">
+        <div class="text-wrapper">
+          <h3 class="text-uppercase">
+            <span class="font-weight-bold">Мы руководствуемся политикой <span class="color-green">«от производителя до клиента»</span> и не имеем посредников.</span>
+            <br><br>
+            <span>Благодаря этому наши <span class="color-green">цены</span><br>имеют высокую конкурентоспособность.</span>
+          </h3>
+          <img src="./assets/img/veg.png" alt="" class="veg-img">
+        </div>
+      </div>
+    </section>
+
     <footer class="footer py-5">
         <div class="container">
             <div class="row align-items-center">

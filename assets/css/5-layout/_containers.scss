@@ -2,13 +2,13 @@
   padding: 0 20px;
   overflow: hidden;
 }
-@media (min-width: 1440px){
+@include media-breakpoint-up(xl) {
   .container {
-    max-width: 1380px;
+    max-width: 1190px;
   }
 }
-@media (min-width: 1960px){
+@media (min-width: 1300px) {
   .container {
-    max-width: 1571px;
+    max-width: 1210px;
   }
 }

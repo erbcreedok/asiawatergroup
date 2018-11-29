@@ -93,9 +93,8 @@ gulp.task('serve', ['watchFiles'], function(){
   browserSync.init({
         server: "./"
     });
-
     gulp.watch("assets/css/**/*.scss", ['watchFiles']);
-    gulp.watch(['*.html', '*.php']).on('change', browserSync.reload);
+    gulp.watch(['*.html', '*.php', 'assets/css/sections/*.css']).on('change', browserSync.reload);
 });
 
 gulp.task("default", ["clean", 'build'], function() {

@@ -1,0 +1,77 @@
+.section-banner {
+  background: #f4f3ef;
+  overflow: hidden;
+  max-width: 100vw; }
+  .section-banner .container {
+    max-width: 1660px;
+    padding: 175px 15px 185px;
+    position: relative;
+    overflow: visible; }
+  .section-banner .text-wrapper {
+    max-width: 965px;
+    position: relative; }
+    .section-banner .text-wrapper h3 {
+      font-size: 4.5rem;
+      background: #f4f3ef;
+      padding: 40px 0; }
+    .section-banner .text-wrapper > * {
+      position: relative; }
+    .section-banner .text-wrapper:before {
+      content: '';
+      position: absolute;
+      border: 20px solid white;
+      left: 40%;
+      top: -75px;
+      bottom: -75px;
+      max-width: calc(100vw - 40% - 100px);
+      width: 1120px; }
+  .section-banner .veg-img {
+    position: absolute;
+    top: -10%;
+    bottom: -10%;
+    height: 120%;
+    display: block;
+    left: 100%;
+    margin-left: -40px;
+    pointer-events: none; }
+  @media (max-width: 1440px) {
+    .section-banner .text-wrapper {
+      max-width: 750px; }
+      .section-banner .text-wrapper h3 {
+        font-size: 3.5rem; } }
+  @media (max-width: 992px) {
+    .section-banner .text-wrapper {
+      max-width: 535px; }
+      .section-banner .text-wrapper h3 {
+        font-size: 2.5rem; } }
+  @media (max-width: 768px) {
+    .section-banner .text-wrapper {
+      max-width: 460px; }
+      .section-banner .text-wrapper h3 {
+        font-size: 2rem; } }
+  @media (max-width: 576px) {
+    .section-banner .container {
+      padding-top: 30px;
+      padding-bottom: 30px; }
+    .section-banner .text-wrapper {
+      max-width: 330px;
+      padding: 3px 0; }
+      .section-banner .text-wrapper:before {
+        max-width: 120%;
+        border-width: 8px;
+        top: -10px;
+        bottom: -10px; }
+      .section-banner .text-wrapper h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.5rem; } }
+  @media (max-width: 420px) {
+    .section-banner .text-wrapper {
+      max-width: 220px; }
+      .section-banner .text-wrapper:before {
+        max-width: 120%;
+        border-width: 5px; }
+      .section-banner .text-wrapper h3 {
+        font-size: 1rem; } }
+
+/*# sourceMappingURL=section-banner.css.map */
