@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34099a7-fdd0-4bf5-b499-eaf5c943358f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/2-plugins/_slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/functions/waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/slick.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/_sections.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/sections/section-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/sections/section-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-features.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-features.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-products.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +52,7 @@
           <entry key="js" value="824" />
           <entry key="json" value="44" />
           <entry key="md" value="53" />
-          <entry key="scss" value="6184" />
+          <entry key="scss" value="6214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -82,7 +61,7 @@
           <entry key="JSON" value="44" />
           <entry key="JavaScript" value="824" />
           <entry key="Markdown" value="53" />
-          <entry key="SCSS" value="6184" />
+          <entry key="SCSS" value="6214" />
         </counts>
       </usages-collector>
     </session>
@@ -101,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/sections/section-about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
               <folding>
                 <element signature="e#671#681#0" />
                 <element signature="e#1460#1474#0" />
@@ -332,12 +311,12 @@
       <workItem from="1543464859192" duration="12629000" />
       <workItem from="1543551705449" duration="4723000" />
       <workItem from="1543558814098" duration="3661000" />
-      <workItem from="1543564020703" duration="8193000" />
+      <workItem from="1543564020703" duration="8421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34839000" />
+    <option name="totallyTimeSpent" value="35067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,7 +331,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -368,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -661,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sections/section-about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
           <folding>
             <element signature="e#671#681#0" />
             <element signature="e#1460#1474#0" />

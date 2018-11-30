@@ -1,6 +1,7 @@
 .section-about {
   overflow: hidden;
   width: 100vw;
+  position: relative;
   .container {
     overflow: visible;
     padding-top: 80px;
@@ -165,11 +166,12 @@
     }
     .about-gallery {
       position: absolute;
-      margin: -25px 0 0px 0;
+      margin: 0;
       left: 0;
       right: 0;
-      top: 100%;
+      bottom: 20px;
       width: 100vw;
+
       .slides-container img {
         height: 300px;
       }
@@ -181,9 +183,6 @@
   @media (max-width: 577.68px) {
     .about-wrapper {
       padding-bottom: 180px;
-    }
-    .about-gallery {
-      margin: -65px 0 0px 0;
     }
     .about-gallery .slides-container img {
       height: 180px;
