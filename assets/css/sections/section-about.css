@@ -1,3 +1,153 @@
-
+.section-about {
+  overflow: hidden;
+  width: 100vw; }
+  .section-about .container {
+    overflow: visible;
+    padding-top: 80px;
+    padding-bottom: 100px; }
+  .section-about .about-wrapper {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px; }
+  .section-about .about-info {
+    margin-left: 56px;
+    left: 50%;
+    width: 480px;
+    position: relative;
+    margin-bottom: 222px; }
+    .section-about .about-info h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      background: white;
+      display: inline-block;
+      white-space: nowrap;
+      padding-right: 20px;
+      padding-left: 100px;
+      margin-left: -100px; }
+    .section-about .about-info p {
+      font-size: 1.4rem; }
+    .section-about .about-info > * {
+      position: relative; }
+    .section-about .about-info:before {
+      content: '';
+      position: absolute;
+      display: block;
+      border: 3px solid #ebebeb;
+      top: 10px;
+      left: -106px;
+      right: -56px;
+      bottom: -222px; }
+  .section-about .about-pic {
+    position: absolute;
+    right: 50%;
+    width: 50%;
+    top: 0;
+    bottom: 60px; }
+    .section-about .about-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .section-about .about-gallery {
+    position: absolute;
+    right: 50px;
+    margin-left: -40px;
+    bottom: 120px;
+    width: 571px; }
+    .section-about .about-gallery .slides-container {
+      margin-left: -5px;
+      margin-right: -5px;
+      overflow: hidden; }
+      .section-about .about-gallery .slides-container .slide {
+        position: relative;
+        padding-left: 5px;
+        padding-right: 5px;
+        outline: none !important; }
+      .section-about .about-gallery .slides-container img {
+        width: 100%;
+        height: 95px;
+        object-fit: cover; }
+    .section-about .about-gallery .slide-next {
+      appearance: none;
+      border: none;
+      background: none;
+      cursor: pointer;
+      position: absolute;
+      right: -40px;
+      height: 32px;
+      width: 32px;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      outline: none; }
+      .section-about .about-gallery .slide-next img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center; }
+  @media (max-width: 1200px) and (min-width: 992px) {
+    .section-about .about-info {
+      margin-left: 20px;
+      padding-right: 10px; }
+    .section-about .about-info:before {
+      right: 0; }
+    .section-about .about-gallery {
+      right: 10px; } }
+  @media (max-width: 991.98px) {
+    .section-about .about-info {
+      margin-left: 10px;
+      width: 370px; }
+    .section-about .about-info:before {
+      right: -35px; }
+    .section-about .about-gallery {
+      right: 0; } }
+  @media (max-width: 767.98px) {
+    .section-about .heading {
+      display: none; }
+    .section-about .about-wrapper {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0; }
+    .section-about .container {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .section-about .about-pic {
+      display: none; }
+    .section-about .about-info {
+      margin: 0 0 10px 0;
+      position: static;
+      width: 100%; }
+      .section-about .about-info h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px !important; }
+      .section-about .about-info p {
+        font-size: .8rem;
+        margin-bottom: 10px !important; }
+      .section-about .about-info:before {
+        content: none; }
+    .section-about .container {
+      position: static; }
+    .section-about .about-wrapper {
+      position: static;
+      padding-bottom: 300px; }
+    .section-about .about-gallery {
+      position: absolute;
+      margin: -25px 0 0px 0;
+      left: 0;
+      right: 0;
+      top: 100%;
+      width: 100vw; }
+      .section-about .about-gallery .slides-container img {
+        height: 300px; }
+      .section-about .about-gallery .slide-next {
+        display: none; } }
+  @media (max-width: 577.68px) {
+    .section-about .about-wrapper {
+      padding-bottom: 180px; }
+    .section-about .about-gallery {
+      margin: -65px 0 0px 0; }
+    .section-about .about-gallery .slides-container img {
+      height: 180px; } }
 
 /*# sourceMappingURL=section-about.css.map */

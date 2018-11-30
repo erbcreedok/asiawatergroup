@@ -1,3 +1,36 @@
+$(document).ready(function() {
+	const aboutGalleryRef = $('.about-gallery .slides-container');
+	const aboutGalleryImgs = $('.about-gallery .slides-container .slide img');
+	const sliderButton = $('.about-gallery button.slide-next');
+	const bigImg = $('.about-pic img');
+	aboutGalleryRef.slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		infinite: true,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 767.98,
+				settings: {
+					slidesToShow: 1,
+					centerMode: true
+				}
+			}
+		]
+	});
+	function handleSlickChange(img) {
+		bigImg.attr('src', $(img).attr('src'))
+	}
+	aboutGalleryRef.on('beforeChange', function(event, slick, prevSlide, currentSlide){
+		currentSlide = currentSlide ? currentSlide : aboutGalleryImgs.length;
+		handleSlickChange(aboutGalleryImgs[currentSlide - 1]);
+	});
+	sliderButton.on('click', function() {
+		aboutGalleryRef.slick('slickNext');
+	});
+
+});
+
 $(document).ready(function () {
     $('input[name="phone"]').inputmask("+9 (999) 999 99 99");
     var logoRef = $('.navbar-brand img');
@@ -8,7 +41,6 @@ $(document).ready(function () {
         srci%=2;
         logoRef.attr('src', srcs[srci]);
     }, 3000);
-
     $('.callbackForm, #callbackForm').submit(function(e) {
         e.preventDefault();
         var phoneElement    = this.elements.phone;

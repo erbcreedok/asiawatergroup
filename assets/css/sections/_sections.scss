@@ -1,4 +1,7 @@
 section {
+  .container{
+
+  }
   .subheading {
     font-size: 4.8rem;
     color: $green;
@@ -11,5 +14,14 @@ section {
     text-transform: uppercase;
     text-align: center;
     margin-top: 10px;
+  }
+  @media (max-width: 768px) {
+    .subheading {
+      display: none;
+    }
+    .heading {
+      font-size: 1.4rem;
+      text-align: left;
+    }
   }
 }

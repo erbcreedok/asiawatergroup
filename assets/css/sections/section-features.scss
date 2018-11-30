@@ -5,6 +5,9 @@
     padding-top: 80px;
     padding-bottom: 100px;
   }
+  .feature-circles {
+    padding-top: 65px;
+  }
   .circle {
     background: white;
     max-width: 179px;
@@ -19,4 +22,34 @@
     font-weight: 600;
     text-align: center;
   }
+  @media (max-width: 768px) {
+    .container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .feature-circles {
+      padding-top: 10px;
+    }
+    .circle {
+      width: 56px;
+      height: 56px;
+      line-height: 56px;
+      img {
+        width: 30px;
+      }
+      margin: 10px auto;
+    }
+    .description {
+      font-size: 1rem;
+    }
+  }
+
+  //@media (min-width: 400px) and (max-width: 576px) {
+  //  .col-sm-6 {
+  //    -webkit-box-flex: 0;
+  //    -ms-flex: 0 0 50%;
+  //    flex: 0 0 50%;
+  //    max-width: 50%;
+  //  }
+  //}
 }

@@ -4,9 +4,6 @@
   transition: background 150ms ease-in, padding 150ms 150ms;
   background: $white;
   color: $black-default;
-  .form-wrapper {
-    max-width: 240px;
-  }
   .navbar-brand {
     color: $black;
     font-size: 2.9rem;
@@ -19,6 +16,9 @@
     color: inherit;
     font-weight: 600;
   }
+}
+.navbar-toggler {
+  outline: none !important;
 }
 .navbar-toggler-icon {
   position: relative;
@@ -34,7 +34,7 @@
       width: 20px;
       height: 2px;
       border-radius: 1px;
-      background: $white;
+      background: $green;
       position: absolute;
       top: 0;
       bottom: 0;
@@ -80,5 +80,28 @@ header {
   }
   .navbar .navbar-brand{
     font-size: 2rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navbar .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  header {
+    height: 47px;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-brand {
+    font-size: 1rem;
+  }
+  .navbar .navbar-nav {
+    font-size: 1.2rem;
   }
 }

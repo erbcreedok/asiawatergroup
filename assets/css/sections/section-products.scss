@@ -64,4 +64,26 @@
       }
     }
   }
+  .heading {
+    margin-bottom: 30px;
+  }
+  .products-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  @media (max-width: 767.98px) {
+    .container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .heading {
+      width: 256px;
+      margin: 0 auto 10px;
+    }
+    .products-row {
+      transform: scale(0.7);
+      margin-top: -240px;
+      margin-bottom: -250px;
+    }
+  }
 }

@@ -21,9 +21,8 @@ gulp.task("concatScripts", function() {
         'assets/js/vendor/inputmask.js',
         'assets/js/vendor/inputmask.phone.extensions.js',
         'assets/js/vendor/slick.min.js',
-        'assets/js/vendor/jquery.magnific-popup.min.js',
         'assets/js/functions/nav.js',
-        'assets/js/functions/index-nav.js',
+        'assets/js/functions/waypoints.js',
         'assets/js/functions.js'
         ])
     .pipe(maps.init())
@@ -51,6 +50,9 @@ gulp.task('compileSass', function() {
 });
 
 gulp.task("minifyCss", ["compileSass"], function() {
+    gulp.src("assets/css/sections/*.css")
+        .pipe(cssmin())
+        .pipe(gulp.dest('dist/assets/css/sections'));
   return gulp.src("assets/css/main.css")
     .pipe(cssmin())
     .pipe(rename('main.css'))

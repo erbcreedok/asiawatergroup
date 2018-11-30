@@ -51,5 +51,21 @@
       object-fit: cover;
       width: 100%;
       object-position: 0 0; }
+.section-products .heading {
+  margin-bottom: 30px; }
+.section-products .products-row {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+@media (max-width: 767.98px) {
+  .section-products .container {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .section-products .heading {
+    width: 256px;
+    margin: 0 auto 10px; }
+  .section-products .products-row {
+    transform: scale(0.7);
+    margin-top: -240px;
+    margin-bottom: -250px; } }
 
 /*# sourceMappingURL=section-products.css.map */

@@ -1,0 +1,53 @@
+.section-contacts .container {
+  padding-top: 80px;
+  padding-bottom: 100px; }
+.section-contacts .heading {
+  margin-bottom: 70px; }
+.section-contacts .map-container {
+  margin-bottom: 70px; }
+.section-contacts .icon {
+  color: #18ad50; }
+.section-contacts .contacts-text {
+  text-align: center; }
+  .section-contacts .contacts-text .icon {
+    font-size: 2rem;
+    margin-bottom: 1.5rem; }
+  .section-contacts .contacts-text h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem; }
+  .section-contacts .contacts-text p {
+    font-size: 1.4rem; }
+    .section-contacts .contacts-text p a {
+      color: inherit; }
+@media (max-width: 768px) {
+  .section-contacts .container {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .section-contacts .heading {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .section-contacts .map-container {
+    min-height: 200px;
+    margin-bottom: 20px; }
+  .section-contacts .contacts-text {
+    text-align: left; }
+    .section-contacts .contacts-text > div {
+      padding-left: 80px;
+      position: relative;
+      margin-bottom: 20px; }
+    .section-contacts .contacts-text .icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80px;
+      text-align: center; }
+    .section-contacts .contacts-text h5 {
+      margin-top: 2px;
+      margin-bottom: 5px; } }
+@media (max-width: 576px) {
+  .section-contacts .map-container {
+    margin-left: -20px;
+    margin-right: -20px; } }
+
+/*# sourceMappingURL=section-contacts.css.map */

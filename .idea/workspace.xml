@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34099a7-fdd0-4bf5-b499-eaf5c943358f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-products.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/2-plugins/_slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/sections/section-contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/functions/waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/slick.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/4-modules/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/4-modules/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/5-layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/5-layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/6-sections/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/6-sections/_index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/6-sections/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bg@320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bg@576.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/calendar icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/people icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/shield icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/temp icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/_sections.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-features.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-features.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-products.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sections/section-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sections/section-products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -44,22 +37,24 @@
     <session id="-1064491446">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="2" />
-          <entry key="js" value="2" />
+          <entry key="js" value="11" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="scss" value="44" />
+          <entry key="scss" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -67,27 +62,27 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="11" />
           <entry key="Markdown" value="1" />
-          <entry key="SCSS" value="44" />
+          <entry key="SCSS" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2057" />
-          <entry key="js" value="33" />
+          <entry key="html" value="3105" />
+          <entry key="js" value="824" />
           <entry key="json" value="44" />
           <entry key="md" value="53" />
-          <entry key="scss" value="3169" />
+          <entry key="scss" value="6184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2057" />
+          <entry key="HTML" value="3105" />
           <entry key="JSON" value="44" />
-          <entry key="JavaScript" value="33" />
+          <entry key="JavaScript" value="824" />
           <entry key="Markdown" value="53" />
-          <entry key="SCSS" value="3169" />
+          <entry key="SCSS" value="6184" />
         </counts>
       </usages-collector>
     </session>
@@ -103,53 +98,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/sections/section-about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="260" column="59" selection-start-line="260" selection-start-column="59" selection-end-line="260" selection-end-column="59" />
+            <state relative-caret-position="648">
+              <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#671#681#0" />
+                <element signature="e#1460#1474#0" />
+                <element signature="e#1933#2054#0" />
+                <element signature="e#1923#1933#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/sections/section-banner.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/2-plugins/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_button.scss">
+        <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="55">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/sections/section-banner.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -157,6 +147,9 @@
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>form</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/assets/img</dir>
     </dirStrings>
@@ -176,24 +169,33 @@
         <option value="$PROJECT_DIR$/assets/css/second-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/section-about.scss" />
         <option value="$PROJECT_DIR$/assets/css/section-main.scss" />
-        <option value="$PROJECT_DIR$/assets/css/3-base/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/css/3-base/_fonts.scss" />
         <option value="$PROJECT_DIR$/assets/css/section-features.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/5-layout/_header.scss" />
-        <option value="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_index.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/css/sections/_index.scss" />
         <option value="$PROJECT_DIR$/assets/css/sections/_sectoins.scss" />
-        <option value="$PROJECT_DIR$/assets/css/sections/_sections.scss" />
-        <option value="$PROJECT_DIR$/assets/css/sections/section-features.scss" />
         <option value="$PROJECT_DIR$/assets/css/3-base/_classes.scss" />
         <option value="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" />
-        <option value="$PROJECT_DIR$/assets/css/sections/section-products.scss" />
         <option value="$PROJECT_DIR$/assets/css/4-modules/_button.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/sections/section-banner.scss" />
+        <option value="$PROJECT_DIR$/assets/css/3-base/_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/assets/css/sections/_sections.scss" />
+        <option value="$PROJECT_DIR$/assets/css/sections/section-features.scss" />
+        <option value="$PROJECT_DIR$/assets/css/sections/section-main.scss" />
+        <option value="$PROJECT_DIR$/assets/css/sections/_navbar.scss" />
+        <option value="$PROJECT_DIR$/assets/css/sections/section-contacts.scss" />
+        <option value="$PROJECT_DIR$/assets/js/functions/waypoints.js" />
+        <option value="$PROJECT_DIR$/assets/js/vendor/slick.min.js" />
+        <option value="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" />
+        <option value="$PROJECT_DIR$/assets/css/sections/section-products.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/functions.js" />
+        <option value="$PROJECT_DIR$/assets/css/sections/section-about.scss" />
       </list>
     </option>
   </component>
@@ -244,61 +246,27 @@
               <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="1-frameworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="3-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="4-modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="5-layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="sections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
               <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="main.scss" type="620a8d5e:NestingTreeNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
               <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
               <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodVibesPro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asia-water-group" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asia-water-group" type="b2602c69:ProjectViewProjectNode" />
@@ -319,6 +287,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css/2-plugins" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css/6-sections" />
     </key>
@@ -335,6 +306,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/asia-water-group/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -348,12 +329,15 @@
       <workItem from="1543399660238" duration="386000" />
       <workItem from="1543400052532" duration="3047000" />
       <workItem from="1543408075941" duration="2200000" />
-      <workItem from="1543464859192" duration="12560000" />
+      <workItem from="1543464859192" duration="12629000" />
+      <workItem from="1543551705449" duration="4723000" />
+      <workItem from="1543558814098" duration="3661000" />
+      <workItem from="1543564020703" duration="8193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18193000" />
+    <option name="totallyTimeSpent" value="34839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +352,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -384,7 +368,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -458,19 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_first-section.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" />
     <entry file="file://$PROJECT_DIR$/assets/css/5-layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -478,16 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/5-layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_footer.scss" />
     <entry file="file://$PROJECT_DIR$/assets/css/5-layout/_index.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -514,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="76" column="19" selection-end-line="83" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -531,59 +490,10 @@
     <entry file="file://$PROJECT_DIR$/assets/css/3-base/_classes.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/_sections.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-base/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/3-base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-features.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -594,14 +504,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="661" column="1" selection-start-line="661" selection-start-column="1" selection-end-line="661" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/_sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-features.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/5-layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42862" selection-start-column="42862" selection-end-column="42862" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/functions/nav.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/functions/waypoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/2-plugins/_slick.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="260" column="59" selection-start-line="260" selection-start-column="59" selection-end-line="260" selection-end-column="59" />
+        <state relative-caret-position="478">
+          <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -621,14 +627,48 @@
             <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-banner.scss">
+    <entry file="file://$PROJECT_DIR$/assets/css/3-base/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/2-plugins/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sections/section-about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
+          <folding>
+            <element signature="e#671#681#0" />
+            <element signature="e#1460#1474#0" />
+            <element signature="e#1933#2054#0" />
+            <element signature="e#1923#1933#0" />
+          </folding>
         </state>
       </provider>
     </entry>
