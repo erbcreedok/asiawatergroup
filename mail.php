@@ -17,7 +17,7 @@ $mail->From = 'asia.watttter.group@gmail.com';
 $mail->FromName = 'asia.watttter.group@gmail.com';
 $mail->addAddress('asia.watttter.group@gmail.com');               // Name is optional
 
-$mail->isHTML(true);                                  // Set email format to HTML
+$mail->isHTML(false);                                  // Set email format to HTML
 
 $mail->Subject = $_POST['subject'];
 $mail->Body    = $_POST['message'];

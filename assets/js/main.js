@@ -14534,9 +14534,9 @@ $(document).ready(function () {
 
 	var sendMessage = function(form, name, phone, extra, button) {
 		var message = '💡Новая заявка от ' + name;
-		message += '\n    <i> Телефон: </i> ' + phone;
-		message += '\n    <i> Дополнительно: </i> ' + extra;
-		message += '\n    <i> Нажатая кнопка: </i> ' + button;
+		message += '\n    Телефон: ' + phone;
+		message += '\n    Дополнительно: ' + extra;
+		message += '\n    Нажатая кнопка: ' + button;
 
 		$('.ajax-status').html('Отправляем <span class="icon-spinner spin-me" style="display: inline-block;"></span>');
 

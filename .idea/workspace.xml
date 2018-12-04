@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34099a7-fdd0-4bf5-b499-eaf5c943358f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +33,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="17" />
+          <entry key="js" value="18" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="php" value="1" />
@@ -42,7 +45,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="4" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="1" />
           <entry key="SCSS" value="67" />
@@ -51,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="3303" />
-          <entry key="js" value="1188" />
+          <entry key="js" value="1205" />
           <entry key="json" value="44" />
           <entry key="md" value="53" />
           <entry key="php" value="12" />
@@ -62,7 +65,7 @@
         <counts>
           <entry key="HTML" value="3303" />
           <entry key="JSON" value="44" />
-          <entry key="JavaScript" value="1188" />
+          <entry key="JavaScript" value="1205" />
           <entry key="Markdown" value="53" />
           <entry key="PHP" value="12" />
           <entry key="SCSS" value="6230" />
@@ -93,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="146">
+              <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -104,10 +107,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="97" column="46" lean-forward="true" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -156,7 +168,6 @@
         <option value="$PROJECT_DIR$/assets/css/3-base/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/css/5-layout/_footer.scss" />
         <option value="$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/css/sections/_sections.scss" />
         <option value="$PROJECT_DIR$/assets/css/sections/section-features.scss" />
         <option value="$PROJECT_DIR$/assets/css/sections/section-main.scss" />
@@ -171,8 +182,9 @@
         <option value="$PROJECT_DIR$/assets/css/4-modules/_forms.scss" />
         <option value="$PROJECT_DIR$/assets/css/4-modules/_index.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/functions.js" />
         <option value="$PROJECT_DIR$/mail.php" />
+        <option value="$PROJECT_DIR$/assets/js/functions.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -318,12 +330,12 @@
       <workItem from="1543558814098" duration="3661000" />
       <workItem from="1543564020703" duration="8819000" />
       <workItem from="1543686164522" duration="68000" />
-      <workItem from="1543896090855" duration="2340000" />
+      <workItem from="1543896090855" duration="2538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37873000" />
+    <option name="totallyTimeSpent" value="38071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,7 +350,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -354,7 +366,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/functions/nav.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -636,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="428" column="50" selection-start-line="428" selection-start-column="50" selection-end-line="428" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -650,10 +648,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="428" column="50" selection-start-line="428" selection-start-column="50" selection-end-line="428" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="146">
+          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -661,10 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="348">
+          <caret line="97" column="46" lean-forward="true" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
         </state>
       </provider>
     </entry>
