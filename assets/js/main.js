@@ -14507,9 +14507,11 @@ $(document).ready(function () {
 		e.preventDefault();
 		var nameElement = this.elements.name;
 		var phoneElement = this.elements.phone;
+		var extraElement = this.elements.extra;
 		var buttonElement = this.elements.button;
 		var name = nameElement.value.trim();
 		var phone = phoneElement.value.trim();
+		var extra = extraElement.value.trim();
 		var button = buttonElement.value.trim();
 		var valid = true;
 		if (name === '') {
@@ -14526,13 +14528,14 @@ $(document).ready(function () {
 		}
 		if (!valid) return;
 
-		sendMessage(this, name, phone, button);
+		sendMessage(this, name, phone, extra, button);
 
 	});
 
-	var sendMessage = function(form, name, phone, button) {
+	var sendMessage = function(form, name, phone, extra, button) {
 		var message = '💡Новая заявка от ' + name;
 		message += '\n    <i> Телефон: </i> ' + phone;
+		message += '\n    <i> Дополнительно: </i> ' + extra;
 		message += '\n    <i> Нажатая кнопка: </i> ' + button;
 
 		$('.ajax-status').html('Отправляем <span class="icon-spinner spin-me" style="display: inline-block;"></span>');
@@ -14553,7 +14556,7 @@ $(document).ready(function () {
         };
 
         var sendMail = function() {
-	        $.post('mail.php', {message: message, subject: 'Новая заявка от ' + options.phone }, success);
+	        $.post('mail.php', {message: message, subject: 'Новая заявка от ' + name }, success);
         };
 
 		sendMail();
