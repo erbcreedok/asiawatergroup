@@ -9,13 +9,13 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';                    // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->SMTPSecure = 'ssl';
-$mail->Username = 'yes.service.mailer@gmail.com';                 // SMTP username
-$mail->Password = 'YesService123';                   // SMTP password
+$mail->Username = 'asia.watttter.group@gmail.com';                 // SMTP username
+$mail->Password = 'AWG12345';                   // SMTP password
 $mail->Port = '465';                                          // TCP port to connect to
 
-$mail->From = 'yes.service.mailer@gmail.com';
-$mail->FromName = 'yes.service.mailer@gmail.com';
-$mail->addAddress('zakaz@yes-service.kz');               // Name is optional
+$mail->From = 'asia.watttter.group@gmail.com';
+$mail->FromName = 'asia.watttter.group@gmail.com';
+$mail->addAddress('asia.watttter.group@gmail.com');               // Name is optional
 
 $mail->isHTML(false);                                  // Set email format to HTML
 

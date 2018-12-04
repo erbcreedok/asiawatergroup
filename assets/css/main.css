@@ -9037,6 +9037,49 @@ h4, .h4 {
   .btn.btn-big {
     min-height: 40px; } }
 
+.modal-hr {
+  background: #18ad50;
+  margin: 35.5px 0; }
+
+.modal-body {
+  position: relative; }
+
+.modal-dialog {
+  max-width: 720px; }
+
+.modal-content {
+  padding: 35px 45px;
+  border-radius: 5px;
+  border: none; }
+
+.modal-closer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem; }
+
+.modal-backdrop.show {
+  opacity: .75; }
+
+@media (max-width: 767.98px) {
+  .modal-dialog {
+    margin: 0; }
+  .modal-content {
+    border-radius: 0;
+    padding: 2rem 1.5rem; }
+  .modal-closer {
+    top: -2rem;
+    right: -.75rem; }
+  .modal-thanks {
+    margin: 10rem 0.5rem; }
+    .modal-thanks .modal-content {
+      border-radius: 10px; }
+    .modal-thanks .modal-body {
+      max-height: 320px; } }
+
+form .notifier {
+  font-size: 1.4rem;
+  color: #B3B3B3; }
+
 .form-group label {
   font-size: 1.4rem;
   padding: 0 15px;

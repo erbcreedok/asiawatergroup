@@ -1,0 +1,45 @@
+.modal-hr {
+  background: $green;
+  margin: 35.5px 0;
+}
+.modal-body {
+  position: relative;
+}
+.modal-dialog {
+  max-width: 720px;
+}
+.modal-content {
+  padding: 35px 45px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-closer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.modal-backdrop.show {
+  opacity: .75;
+}
+@include media-breakpoint-down(sm) {
+  .modal-dialog {
+    margin: 0;
+  }
+  .modal-content {
+    border-radius: 0;
+    padding: 2rem 1.5rem;
+  }
+  .modal-closer {
+    top: -2rem;
+    right: -.75rem;
+  }
+  .modal-thanks {
+    margin: 10rem 0.5rem;
+    .modal-content {
+      border-radius: 10px;
+    }
+    .modal-body {
+      max-height: 320px;
+    }
+  }
+}
